@@ -39,8 +39,3 @@ The class decoder have 2 functions:
                      "no_extention_file"  is the input file name without .lzw extention. "output_file" is created and opened in write mode with the inputfile name_decoded.txt. "decoded" list is written into the output_file and then                            closed after writing.
 
                       sys.argv[1] and sys.argv[2] which are command line arguments of inputfile.lzw and bit length are given to filename and N. decode_file takes the input arguments and passes to decode() function.
-
-Input/Output:
-I have used Python 3.8 IDLE and to enter the arguments press run customized, then when a textbox pops out enter the two input arguments-filename.extention and bit length.(example: input1.txt 12)
-Note:
-Before running the code check whether the input file and encoder, decoder codes are at the same directory.
